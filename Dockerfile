@@ -3,7 +3,7 @@ FROM ghdl/pkg:buster-mcode AS buster-mcode
 #---
 
 FROM openjdk:8-jdk-stretch AS do-ghdl
-LABEL maintainer=”cdmarx@gmail.com”
+LABEL maintainer=”carlos.silva@rapttouch.com”
 
 USER root
 RUN echo '# deb http://snapshot.debian.org/archive/debian/20190610T000000Z buster main' >> /etc/apt/sources.list
